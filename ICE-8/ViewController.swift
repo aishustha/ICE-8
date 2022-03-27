@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         //store image file
       
-        let imagePath = Bundle.main.path(forResource: "dog", ofType: "png")
+        let imagePath = Bundle.main.path(forResource: "bird", ofType: "jpeg")
         let imageURL = NSURL.fileURL(withPath: imagePath!)
         
         //prepare the Core ML model to work with the Vision framework
